@@ -1,0 +1,167 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* HEADING */
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* CONTAINERS */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* SECTIONS */
+.colored-section {
+  background-color: #A66CFF;
+  color: white;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* TITLE */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/*navigation-bar*/
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+
+/*download buttons*/
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/*title image*/
+.title-image {
+  width: 18%;
+  /* transform: rotate(25deg); */
+  margin-left: 15%;
+  position: absolute;
+  right: 19%;
+  border-radius: 100%;
+}
+
+/* FEATURES */
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.features-title {
+  font-size: 1.5rem;
+}
+
+.features-column {
+  padding: 7%;
+}
+
+.features-img {
+  color: #80558C;
+  padding-bottom: 8%;
+}
+
+.features-img:hover {
+  color: #A66CFF;
+}
+
+/* TESTIMONIALS */
+#testimonials {
+  background-color: #80558C;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#press {
+  background-color: #80558C;
+  padding: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* PRICING */
+#pricing {
+  padding: 100px;
+}
+
+.card-header {
+  font-size: 1.5rem;
+}
+
+.pricing-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* FOOTER */
+.socialmedia-logo {
+  margin: 0 1% 1.5%;
+}
+
+@media (max-width: 1150px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+  }
+}
